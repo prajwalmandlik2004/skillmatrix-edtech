@@ -23,13 +23,13 @@ database.connect();
 app.use(express.json());
 app.use(cookieParser());
 
-// app.use(
-//   cors({
-//     origin: JSON.parse(process.env.CORS_ORIGIN),
-//     credentials: true,
-//     maxAge: 14400,
-//   })
-// );
+app.use(
+  cors({
+    origin: "*",
+    credentials: true,
+    maxAge: 14400,
+  })
+);
 
 app.use(function (req, res, next) {
   //Enabling CORS
@@ -38,6 +38,8 @@ app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, x - client - key, x - client - token, x - client - secret, Authorization");
   next();
 });
+
+
 
 
 app.use(
