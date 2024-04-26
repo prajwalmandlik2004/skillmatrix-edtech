@@ -1,4 +1,4 @@
-# Educational Website Project README
+# Skill Matrix - Educational Website Project
 
 Welcome to the README for our comprehensive educational website project! This document provides an overview of the project, including its technologies, features, and highlights.
 
