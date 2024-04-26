@@ -6,6 +6,8 @@ Welcome to the README for our comprehensive educational website project! This do
 
 Our educational website is built using a stack of powerful tools, including React.js, Node.js, Express.js, Tailwind CSS, and MongoDB. This combination of technologies allows us to create a dynamic and efficient platform for both instructors and students.
 
+## Live link : https://bit.ly/Skill-Matrix
+
 ## Technologies Used
 
 - **React.js**: Frontend framework for building user interfaces.
