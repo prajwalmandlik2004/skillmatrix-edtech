@@ -53,6 +53,7 @@ function Login() {
       image={loginImg}
       formType="login"
     />
+
     </>
   )
 }

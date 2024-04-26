@@ -1,4 +1,4 @@
-import signupImg from "../assets/Images/signup.webp"
+import signupImg from "../assets/Images/login.webp"
 import Template from "../Components/core/Auth/Template"
 import { useSelector } from "react-redux";
 
@@ -18,3 +18,4 @@ function Signup() {
 }
 
 export default Signup
+
